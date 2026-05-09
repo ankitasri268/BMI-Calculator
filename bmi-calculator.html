@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="bmi-calculator.css" type="text/css">
+</head>
+<body>
+    <div><p>Weight: <input placeholder="Please put Weight in kg NO GRAMS!" id="metricWeight" onchange="calculateMetricBMI()"></p><p>Weight: <input placeholder="Please put Weight in lb NO STONES/OZ!" id="USWeight" onchange="calculateUSBMI()"></p></div><div><p>Height: <input placeholder="Please put Height in cm NO METERS!" id="metricHeight" onchange="calculateMetricBMI()"></p><p>Height: <input placeholder="Please put Height in inches NO FEET!" id="USHeight" onchange="calculateUSBMI()"></p></div><div><p>&nbsp;&nbsp;BMI: &nbsp;<input readonly id="metricBMI"></p><p>&nbsp;&nbsp;BMI: &nbsp;<input readonly id="USBMI"></p></div>
+    <script src="bmi-calculator.js"></script>
+</body>
+</html>

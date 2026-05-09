@@ -1,0 +1,7 @@
+div {
+    display: flex;
+    gap: 100px;
+}
+input {
+    width: 110%;
+}
